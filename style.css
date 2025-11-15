@@ -1,0 +1,177 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    border:border-box;
+}
+.navbar{
+    height: 55px;
+    background-color: rgb(217, 186, 29);
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 55px;
+    width: 100px;
+
+}
+.logo{
+    height: 55px;
+    width: 100%;
+    background-image: url("sevahlogo.png");
+    background-size: cover;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid black;
+}
+/**address**/
+.address1{
+    color: rgb(122, 121, 121);
+    font-size: small;
+    margin-left: 20px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**search**/
+.nav-search{
+    display: flex;
+    background-color: rgb(196, 92, 196);
+    border-radius: 5px;
+    height: 40px;
+    width: 600px;
+}
+.select{
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 50px;
+    background-color: rgb(191, 191, 191);
+    border: none;
+}
+.input{
+    border: none;
+    font-size: 1rem;
+    width:500px;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.nav-search:hover{
+    border: 1.5px solid rgb(196, 92, 196);
+}
+/**b4 and 4**/
+span{
+    font-size: small;
+    color:rgb(111, 110, 110);
+}
+.bottom{
+    font-size: large;
+    color: black;
+    font-weight: 700;
+}
+/**cart**/
+.nav-cart i{
+    font-size: 30px;
+}
+/**second panel**/
+.panel{
+    display: flex;
+    background-color:rgb(196, 92, 196) ;
+    height: 40px;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 1100px;
+}
+/**main section**/
+.main-section{
+    background-image: url(main3.jpeg);
+    height: 400px;
+    background-size:cover;
+}
+/**shop-section**/
+.shop-section{
+    background-color: rgb(196, 92, 196) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+.box:hover{
+    border: 2px solid rgb(255, 228, 93);
+    transition: ease-in;
+    transition-duration: 1s;
+}
+.box-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+a{
+    color: rgb(145, 59, 145);
+    text-decoration: none;
+}
+/**footer**/
+footer{
+    background-color: rgb(192, 168, 49);
+    margin-top: 15px;
+}
+.footer-panel1{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel2{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(224, 198, 69);
+}
+ul a{
+    display: block;
+}
+.footer-panel3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+}
+.footer-panel4{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
